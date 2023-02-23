@@ -1,0 +1,88 @@
+.nav_block {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: transparent;
+  background: linear-gradient(180deg, #0b1220 12.29%, rgba(0, 0, 0, 0.07) 100%);
+  z-index: 99;
+}
+.nav_block_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1.5rem;
+}
+
+.nav_block_list {
+  display: flex;
+  align-items: center;
+}
+
+.nav_logo {
+  margin-right: 20rem;
+}
+
+.right_block {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.right_block:not(:first-child) span {
+  margin-left: 4rem;
+}
+
+.right_item {
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#logout {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.03em;
+}
+
+.nav_item {
+  background: transparent;
+  padding: 1.5rem;
+  cursor: pointer;
+  border: 0.3rem solid transparent;
+  user-select: none;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.item_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav_item_text {
+  font-size: 2.2rem;
+  margin-left: 1.5rem;
+}
+
+.nav_item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.nav_item:hover,
+.nav_item.active {
+  color: #fa4776;
+  transition: 0.2s ease;
+}
+
+.right_item:hover,
+.right_item.active {
+  color: #fa4776;
+}
+.right_item svg path:hover,
+.right_item.active svg path {
+  fill: #fa4776;
+}
